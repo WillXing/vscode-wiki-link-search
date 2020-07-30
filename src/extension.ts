@@ -39,7 +39,7 @@ export function activate(context: vscode.ExtensionContext) {
       await vscode.window.showQuickPick<vscode.QuickPickItem>(links, pickOption);
     if (!selectedItem) { return; }
     editor.edit(editBuilder => {
-      editBuilder.replace(selection, `[${selectedItem.label}](${selectedItem.description})`);
+      editBuilder.replace(selection, `[${word}](${selectedItem.description})`);
     });
   });
 

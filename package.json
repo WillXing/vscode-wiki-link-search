@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:wiki-link.helloWorld"
+		"onCommand:wiki-link.search"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "wiki-link.helloWorld",
-				"title": "Hello World"
+				"command": "wiki-link.search",
+				"title": "wiki link search"
 			}
 		]
 	},

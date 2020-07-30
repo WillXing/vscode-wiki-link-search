@@ -1,11 +1,21 @@
 {
-	"name": "wiki-link",
+  "name": "wiki-link",
+  "icon": "images/logo.png",
 	"displayName": "Wiki Link",
-	"description": "Search keyword on wiki and generate markdown link of the selected wiki page",
+  "description": "Search keyword on wiki and generate markdown link of the selected wiki page",
+  "publisher": "willxing",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.47.0"
-	},
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillXing/vscode-wiki-link-search"
+  },
+  "author": {
+    "name": "Will Xing",
+    "url": "https://willxing.github.io/"
+  },
 	"categories": [
 		"Other"
 	],

@@ -9,7 +9,7 @@ Usage is simple:
 2. `Ctrl+Shift+P` get command prompt
 3. Select the most relevant link
 
-![feature X](images/wiki-link-extension.gif)
+![replace with wiki link](images/wiki-link-extension.gif)
 
 ## Release Notes
 

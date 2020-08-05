@@ -11,8 +11,25 @@ Usage is simple:
 
 ![replace with wiki link](images/wiki-link-extension.gif)
 
+
+## Configuration
+
+Can add following to the setting file:
+
+```json
+{
+  "wikilink.linknum": 5 // How many links maxium you want to list when search
+}
+```
+
+Or go to settings page and find `extentions > WikiLink`.
+
 ## Release Notes
 
 ### 1.0.0
 
 Initial release of Wiki link search
+
+### 1.1.0
+
+Add config option for how many links you want to list when search

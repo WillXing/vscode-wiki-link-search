@@ -11,6 +11,9 @@ export function activate(context: vscode.ExtensionContext) {
       return;
     }
 
+    const config = vscode.workspace.getConfiguration('wikilink');
+    const linkNum = config.get("linknum");
+
     const document = editor.document;
     const selection = editor.selection;
 
@@ -18,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
     
     let response: AxiosResponse;
     try {
-      response = await axios.get(`https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURI(word)}&limit=4&format=json`);
+      response = await axios.get(`https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURI(word)}&limit=${linkNum}&format=json`);
     } catch (e) {
       vscode.window.showInformationMessage(`Search fail`);
       throw e;

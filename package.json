@@ -4,7 +4,7 @@
   "displayName": "Wiki Link",
   "description": "Search keyword on wiki and generate markdown link of the selected wiki page",
   "publisher": "willxing",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.47.0"
   },
@@ -29,7 +29,19 @@
         "command": "wiki-link.search",
         "title": "wiki link search"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "WikiLink",
+      "properties": {
+        "wikilink.linknum": {
+          "type": "number",
+          "default": 5,
+          "description": "How many links want to show in every search, from 1 to 20",
+          "maximum": 20,
+          "minimum": 1
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

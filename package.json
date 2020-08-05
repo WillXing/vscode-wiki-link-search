@@ -5,6 +5,7 @@
   "description": "Search keyword on wiki and generate markdown link of the selected wiki page",
   "publisher": "willxing",
   "version": "1.2.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.47.0"
   },

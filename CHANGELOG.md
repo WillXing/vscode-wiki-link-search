@@ -1,11 +1,13 @@
-### 1.0.0
+### 1.2.0
 
-Initial release of Wiki link search
+Add loading status when search links
+
+Add input box asking for new keyword when no result comes up
 
 ### 1.1.0
 
 Add config option for how many links you want to list when search
 
-Add loading status when search links
+### 1.0.0
 
-Add input box asking for new keyword when no result comes up
+Initial release of Wiki link search

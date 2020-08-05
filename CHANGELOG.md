@@ -1,9 +1,7 @@
-# Change Log
+### 1.0.0
 
-All notable changes to the "wiki-link" extension will be documented in this file.
+Initial release of Wiki link search
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### 1.1.0
 
-## [Unreleased]
-
-- Initial release
+Add config option for how many links you want to list when search

@@ -1,3 +1,7 @@
+### 1.2.1
+
+Bump dependency version: axios
+
 ### 1.2.0
 
 Add loading status when search links
